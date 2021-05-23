@@ -23,11 +23,13 @@ arr4.unshift(4, 5, 6);
 console.log(arr4);
 //////////5555555555
 let arr5 = ['js', 'css', 'jq'];
-
-console.log(arr5.indexOf(0));
+ let ar5 = arr5.slice(0, 1);
+console.log(ar5);
 
 ////////////6666666666666
-
+let ar6 = ['js', 'css', 'jq'];
+ let arr6 = ar6.slice(-1);
+  console.log(arr6);
 ///////////////77777777777777
 let arr7 = [17, 42, 73, 4, 5];
 arr7.splice(0,2,1, 2, 3);
