@@ -32,8 +32,8 @@ let ar6 = ['js', 'css', 'jq'];
   console.log(arr6);
 ///////////////77777777777777
 let arr7 = [17, 42, 73, 4, 5];
-arr7.splice(0,2,1, 2, 3);
-console.log(arr7);
+  let arr71 = arr7.slice(3);
+console.log(arr71);
 ////////////////888888888
 let arr8 = [17, 42, 73, 4, 5];
 arr8.splice(0, 3);
@@ -41,17 +41,16 @@ arr8.splice(0, 3);
 console.log(arr8);
 /////////////99999999999
 let arr9 = [1, 2, 3, 4, 5];
-    arr9.splice(1, 2);
+   arr9.slice(-1,2);
 console.log(arr9);
 ////////////10 10 10 10 10 10 10 10 10 10 
 let arr10 = [1, 2, 3, 4, 5];
-    arr10.splice(0,1, 2, 3, 4);
-     arr10.splice(3,4);
+   let removed = arr10.slice(1, 3);
 
-console.log(arr10);
+console.log(removed);
 /////////////11 11 11 11 11 11 11 11 11 
 let arr111 = [1, 2, 3, 4, 5];
-   arr111.splice(2, 0, 'a', 'b', 'c');
+   arr111.splice(3, 0, 'a', 'b', 'c');
    
    console.log(arr111);
    ///////////////////////12 12 12 12 12 12 12 12 12 12 
